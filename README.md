@@ -3,7 +3,8 @@
 
 This is a lowlevel data structure, 
 which might be best decribed as a linked skiplist of mapped vectors,
-using mmap for memory allocations.
+using mmap for memory allocations, and managing the memory in blocks
+of a pagesize (4kB at linux x64).
 
 In its current form it maps variable strings to integers;
 the integers have to be inserted sequentially, 
