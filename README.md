@@ -9,7 +9,7 @@ In its current form it maps variable strings to integers;
 the integers have to be inserted sequentially, 
 but do not neccessarily need to start with 1.
 
-It is optimized for sequential appending of elements and ramdom read access,
+It is optimized for sequential appending of elements and random read access,
 with a known medium length of the elements.
 
 Inserting elements is not possible, and for deleting elements you would
