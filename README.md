@@ -51,7 +51,7 @@ list
 I push this online as it is.
 
 It is highly specialized for its very own usecase - keeping track of the inotify id's,
-you get for each inotify watch. There you have to store for every inotify id the accoring path.
+you get for each inotify watch. There you have to store for every inotify id the according path.
 
 Therefore having the knowledge, of how long the strings added are in the medium, 
 and how many there are going to be added.
