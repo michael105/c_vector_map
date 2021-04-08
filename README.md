@@ -12,7 +12,7 @@ but do not neccessarily need to start with 1.
 
 It is optimized for sequential appending elements and ramDom read access,
 with a known medium length of the elements. *err* Elements have to appended
-necesarily in sequential order, 
+necessarily in sequential order, and the structure is optimized for random access.
 
 Inserting elements is not possible, and for deleting elements you would
 need to define a 'deleted marker' for yourself.
