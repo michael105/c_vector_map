@@ -58,7 +58,11 @@ and how many there are going to be added.
 
 It wouldn't be a problem to e.g. change the blocksize of the managed memory blocks;
 change the count of elements per block dynamically, or use also spare memory areas,
-left over at the end of a block.
+left over at the end of a block. However, this would add some overhead again;
+and I didn't need it in the udevd daemon I wrote.
+There I did focus the most minimal resource usage possible.
+
+
 
 Comparing benchmarks would be quite interesting.
 
